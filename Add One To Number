@@ -1,4 +1,4 @@
-ector<int> Solution::plusOne(vector<int> &A) {
+vector<int> Solution::plusOne(vector<int> &A) {
     
     int n=A.size(),carry=0;
     vector<int>res;
