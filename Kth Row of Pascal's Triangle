@@ -1,0 +1,20 @@
+vector<int> Solution::getRow(int A) {
+    
+     vector<vector<int>> num(A);
+    
+    for( int line = 1; line <= A; line ++){
+        
+        int c = 1;
+        for(int i = 1;i<=line;i++){
+            
+            num[line-1].push_back(c);
+            c = c*(line - i)/i;
+        
+        int k;
+        if( int k == num[line] ){
+            cout << num[line];
+        }
+    }
+    } 
+}
+
